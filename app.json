@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "version": "5.0",
+    "name": "mio-app",
+    "slug": "mioapp",
+    "runtimeVersion": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#5576FA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.metrocali.McMioApp",
+      "buildNumber": "4.3",
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "Mio necesita acceder a tu ubicación para brindarte diferentes tipos de funcionalidades, como mostrarte las estaciones y puntos de recarga más cercanos a tu ubicación, con el fin de brindarte una mejor experiencia."
+      },
+      "config": {
+        "usesNonExemptEncryption": false,
+        "googleMapsApiKey": "AIzaSyAASKd74D9BDvrulatW-tt4NO8nxwjgtVc"
+      }
+    },
+    "android": {
+      "package": "co.gov.metrocalitransporte.mio_app",
+      "versionCode": 35,
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#5576FA"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDhkT1llYuY7MHOWFF2uuIxsYcbXB2NkFc"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d49883c-9fba-40e9-bf05-42a400e56e4b"
+      }
+    },
+    "owner": "ov13x"
+  }
+}
