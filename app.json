@@ -1,8 +1,8 @@
 {
   "expo": {
-    "version": "5.0",
+    "version": "4.6",
     "name": "mio-app",
-    "slug": "mioapp",
+    "slug": "mio-app",
     "runtimeVersion": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -68,9 +68,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "2d49883c-9fba-40e9-bf05-42a400e56e4b"
+        "projectId": "cef5db2e-c0f3-463f-b632-f32e88a52213"
       }
-    },
-    "owner": "ov13x"
+    }
   }
 }
